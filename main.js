@@ -24,6 +24,7 @@ function createMainWindow() {
     width: isDev ? 1400 : 1100,
     height: 800,
     show: false,
+    resizable: false,
     backgroundColor: 'white',
     icon: `${__dirname}/assets/icon.png`,
     webPreferences: {
